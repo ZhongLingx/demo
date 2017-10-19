@@ -103,13 +103,16 @@
         android:layout_below="@id/Phone"
         android:visibility="gone" />
 
-    <TextView
-        android:id="@+id/Send"
+    <Button
+        android:id="@+id/send"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="登陆"
-        android:textSize="17sp"
         android:layout_alignParentBottom="true"
-        android:gravity="center"/>
+        android:layout_toEndOf="@+id/PhoneError"
+        android:layout_toRightOf="@+id/PhoneError"
+        android:background="@android:color/holo_blue_bright"
+        android:gravity="center"
+        android:text="登陆"
+        android:textSize="17sp" />
 
 </RelativeLayout>
