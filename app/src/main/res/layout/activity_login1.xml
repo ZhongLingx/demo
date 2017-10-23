@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/s"
+    android:gravity="center"
     >
 
     <RelativeLayout
         android:id="@+id/login_div"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="15dip"
+        android:layout_margin="30dip"
         >
 
         <TextView
             android:id="@+id/login_user_input"
+            style="normalText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_marginTop="5dp"
-            android:text="账户"
-            style="normalText"/>
+            android:text="账户" />
 
         <EditText
             android:id="@+id/username_edit"
@@ -31,12 +33,12 @@
 
         <TextView
             android:id="@+id/login_password_input"
+            style="normalText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/username_edit"
             android:layout_marginTop="3dp"
-            android:text="密码"
-            style="normalText"/>
+            android:text="密码" />
 
         <EditText
             android:id="@+id/password_edit"
@@ -45,8 +47,7 @@
             android:layout_below="@id/login_password_input"
             android:inputType="textPassword"
             android:password="true"
-            android:singleLine="true"
-             />
+            android:singleLine="true" />
 
         <Button
             android:id="@+id/signin_button"
@@ -56,20 +57,18 @@
             android:layout_below="@id/password_edit"
             android:background="@android:color/holo_red_light"
             android:text="登录" />
-    </RelativeLayout>
 
-    <RelativeLayout
-        android:layout_width="fill_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/login">
 
-        <TextView
+
+
+        <Button
             android:id="@+id/register_link"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
             android:text="注册"
+            android:layout_alignRight="@id/password_edit"
+            android:layout_below="@id/signin_button"
             android:textColor="@android:color/darker_gray"
             android:textColorLink="@android:color/holo_orange_dark" />
     </RelativeLayout>
-</LinearLayout>
+</RelativeLayout>
