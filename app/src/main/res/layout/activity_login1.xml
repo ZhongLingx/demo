@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/s"
+    android:background="@drawable/z"
     android:gravity="center"
     >
 
@@ -55,7 +55,6 @@
             android:layout_height="wrap_content"
             android:layout_alignRight="@id/password_edit"
             android:layout_below="@id/password_edit"
-            android:background="@android:color/holo_red_light"
             android:text="登录" />
 
 
