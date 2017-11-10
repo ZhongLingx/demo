@@ -9,47 +9,70 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="50dp"
+            android:background="@android:color/background_dark"
             android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/wx"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:text="微信"
+                android:layout_marginTop="12dp"
+                android:textColor="@android:color/white"
                 android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/image_search"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="230dp"
+                app:srcCompat="@drawable/main_activity_search_normal" />
+
+            <ImageView
+                android:id="@+id/image_add"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:srcCompat="@drawable/main_activtiy_add_normal" />
         </LinearLayout>
 
     </RelativeLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_gravity="bottom"
-        android:orientation="horizontal">
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
 
         <ImageView
             android:id="@+id/weixin"
-            android:layout_width="20dp"
-            android:layout_height="50dp"
+            android:layout_width="1dp"
+            android:layout_height="40dp"
             android:layout_gravity="bottom"
             android:layout_weight="1"
             app:srcCompat="@drawable/weixin" />
 
         <ImageView
             android:id="@+id/tongxunlu"
-            android:layout_width="20dp"
-            android:layout_height="50dp"
+            android:layout_width="1dp"
+            android:layout_height="40dp"
             android:layout_gravity="bottom"
             android:layout_weight="1"
             app:srcCompat="@drawable/lianxiren" />
 
         <ImageView
             android:id="@+id/wo"
-            android:layout_width="20dp"
-            android:layout_height="50dp"
+            android:layout_width="1dp"
+            android:layout_height="40dp"
             android:layout_gravity="bottom"
             android:layout_weight="1"
             app:srcCompat="@drawable/wo" />
+
+
+
+
     </LinearLayout>
 </RelativeLayout>
