@@ -2,16 +2,16 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginLeft="30dp"
     android:background="@drawable/z"
     android:gravity="center"
     android:orientation="vertical">
 
     <RelativeLayout
         android:id="@+id/login_div"
-        android:layout_width="fill_parent"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_margin="30dip"
+
 
         >
 
