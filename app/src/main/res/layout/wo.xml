@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
     <RelativeLayout
@@ -10,61 +9,56 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="20dp"
+            android:background="@android:color/darker_gray"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="20dp"
             android:orientation="horizontal">
 
             <ImageView
-                android:layout_width="60dp"
-                android:layout_height="41dp"
-                app:srcCompat="@drawable/xin" />
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/me" />
 
             <TextView
-                android:id="@+id/xindepengyou"
+                android:id="@+id/gongzhonghao"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="25dp"
                 android:textSize="18sp"
                 android:layout_weight="1"
-                android:text="新的朋友" />
-
+                android:text="小玲玲" />
         </LinearLayout>
+
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_marginTop="50dp"
-            android:orientation="horizontal"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true">
-
-            <ImageView
-                android:id="@+id/imageView4"
-                android:layout_width="61dp"
-                android:layout_height="41dp"
-                app:srcCompat="@drawable/qun" />
-
-            <TextView
-                android:id="@+id/qunliao"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:textSize="18sp"
-                android:layout_weight="1"
-                android:text="群聊" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="20dp"
             android:layout_marginTop="100dp"
+            android:background="@android:color/darker_gray"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="120dp"
             android:orientation="horizontal">
 
             <ImageView
                 android:id="@+id/imageView6"
                 android:layout_width="60dp"
-                android:layout_height="41dp"
-                app:srcCompat="@drawable/biao" />
+                android:layout_height="45dp"
+                app:srcCompat="@drawable/qianbao" />
 
             <TextView
                 android:id="@+id/biaoqian"
@@ -73,135 +67,146 @@
                 android:layout_marginTop="10dp"
                 android:textSize="18sp"
                 android:layout_weight="1"
-                android:text="标签" />
+                android:text="钱包" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="170dp"
+            android:background="@android:color/darker_gray"
+            android:orientation="horizontal">
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:layout_marginTop="150dp"
+            android:layout_marginTop="190dp"
             android:orientation="horizontal">
 
             <ImageView
                 android:id="@+id/imageView7"
                 android:layout_width="60dp"
-                android:layout_height="41dp"
-                app:srcCompat="@drawable/gong" />
+                android:layout_height="45dp"
+                app:srcCompat="@drawable/shoucang" />
 
             <TextView
-            android:id="@+id/gongzhonghao"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:textSize="18sp"
-            android:layout_weight="1"
-            android:text="公众号" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="20dp"
-            android:layout_marginTop="200dp"
-            android:background="@android:color/darker_gray"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/b"
+                android:id="@+id/shoucang"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="11dp"
+                android:layout_marginTop="13dp"
+                android:textSize="18sp"
                 android:layout_weight="1"
-                android:text="TextView"
-                tools:text="B" />
+                android:text="收藏" />
+
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:layout_marginTop="220dp"
+            android:layout_marginTop="240dp"
             android:orientation="horizontal">
 
             <ImageView
                 android:id="@+id/imageView8"
                 android:layout_width="60dp"
-                android:layout_height="41dp"
-                app:srcCompat="@drawable/bb" />
+                android:layout_height="45dp"
+                app:srcCompat="@drawable/qianbao" />
 
             <TextView
-                android:id="@+id/baba"
+                android:id="@+id/xiangce"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:textSize="18sp"
                 android:layout_weight="1"
-                android:text="爸爸" />
+                android:text="相册" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="280dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="60dp"
+                android:layout_height="45dp"
+                app:srcCompat="@drawable/kabao" />
+
+            <TextView
+                android:id="@+id/kabao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:text="卡包" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="330dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="60dp"
+                android:layout_height="45dp"
+                app:srcCompat="@drawable/biaoqing" />
+
+            <TextView
+                android:id="@+id/biaoqing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:text="表情" />
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="20dp"
-            android:layout_marginTop="270dp"
+            android:layout_marginTop="380dp"
             android:background="@android:color/darker_gray"
             android:orientation="horizontal">
 
-            <TextView
-                android:id="@+id/m"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="11dp"
-                android:layout_weight="1"
-                android:text="TextView"
-                tools:text="M" />
-
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:layout_marginTop="290dp"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:id="@+id/imageView9"
-                android:layout_width="60dp"
-                android:layout_height="41dp"
-                app:srcCompat="@drawable/ma" />
-
-            <TextView
-                android:id="@+id/mama"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:textSize="18sp"
-                android:layout_weight="1"
-                android:text="妈妈" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_marginTop="340dp"
+            android:layout_marginTop="400dp"
             android:orientation="horizontal">
 
             <ImageView
                 android:id="@+id/imageView11"
                 android:layout_width="60dp"
-                android:layout_height="41dp"
-                app:srcCompat="@drawable/mei" />
+                android:layout_height="45dp"
+                app:srcCompat="@drawable/shezhi" />
 
             <TextView
-                android:id="@+id/meimei"
+                android:id="@+id/shezhi"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="13dp"
                 android:textSize="18sp"
                 android:layout_weight="1"
-                android:text="妹妹" />
+                android:text="设置" />
 
         </LinearLayout>
+
+
+
+
+
     </RelativeLayout>
 </RelativeLayout>
