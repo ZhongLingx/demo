@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@android:color/background_dark"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                app:srcCompat="@drawable/fanhui" />
+
+            <TextView
+                android:id="@+id/wx"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="添加朋友"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@android:color/white"
+                android:textSize="24sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="40dp"
+            android:background="@android:color/darker_gray"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="60dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:background="@android:color/holo_green_light"
+                app:srcCompat="@drawable/main_activity_search_normal" />
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1"
+                android:inputType="textPersonName"
+                android:text="微信号/QQ号/手机号" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="100dp"
+            android:background="@android:color/darker_gray"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/wdsjh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"
+                android:layout_marginLeft="100dp"
+                android:text="我的手机号：123456789" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="150dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="40dp"
+                android:layout_height="41dp"
+                app:srcCompat="@drawable/gong" />
+
+            <TextView
+                android:id="@+id/gongzhonghao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:text="公众号" />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </RelativeLayout>
+</RelativeLayout>
